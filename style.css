@@ -82,3 +82,20 @@ td:last-child{
 tr:not(:last-child){
     border-bottom: 1px solid hsl(30, 18%, 87%);
 }
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, hsl(332, 51%, 32%), transparent);
+}
+
+@media (max-width:621px){
+    body{
+        padding: 0;
+    }
+    .wrapper{
+        width: 100%;
+        border-radius: 0;
+        padding: 40px 15px;
+    }
+}
