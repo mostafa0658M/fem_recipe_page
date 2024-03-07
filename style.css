@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 0;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.wrapper img{
+    width: 100%;
+    border-radius: 10px;
+}
+h1,h2{
+    font-family: "Young Serif", serif;
+}
+h2{
+    color:hsl(14, 45%, 36%);
+}
+.desc{
+    color: rgb(59, 59, 59);
+    font-weight: 300;
+}
+.prep-time{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 25px !important;
+}
+.prep-time h3{
+    color: hsl(332, 51%, 32%);
+}
+.section, ul, ol {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.section{
+    padding: 0 10px;
+}
+li{
+    margin-left: 30px;
+    padding-left: 20px;
+    font-weight: 300;
+}
+::marker{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+.key{
+    font-weight: 700;
+}
+hr{
+    border-color: hsl(30, 18%, 87%);
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    padding: 20px;
+}
+td:last-child{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+tr:not(:last-child){
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
